@@ -1,7 +1,22 @@
 <script setup></script>
 
 <template>
-  <div class="prueba">Gallery</div>
+  <section class="gallery">
+    <img src="/src/image_1.jpeg" alt="Category 1" />
+    <img src="/src/image_2.jpeg" alt="Category 2" />
+    <img src="/src/image_3.jpeg" alt="Category 3" />
+  </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  margin: 70px;
+}
+
+.gallery > img {
+  width: 100%;
+}
+</style>

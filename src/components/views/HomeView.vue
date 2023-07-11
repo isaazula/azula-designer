@@ -1,4 +1,6 @@
 <script setup>
+import ProfessionalProfile from "../sections/ProfessionalProfile.vue";
+import AzulaIs from "../sections/AzulaIs.vue";
 import TheCategories from "../sections/TheCategories.vue";
 
 import TheVideo from "../sections/TheVideo.vue";
@@ -6,6 +8,8 @@ import TheVideo from "../sections/TheVideo.vue";
 
 <template>
   <TheVideo />
+  <AzulaIs />
+  <ProfessionalProfile />
   <TheCategories />
 </template>
 

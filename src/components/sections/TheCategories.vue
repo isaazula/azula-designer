@@ -12,10 +12,11 @@
 .categories {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 82px;
+  gap: 70px;
+  margin: 70px;
 }
 
 .categories > img {
-  width: 1080px;
+  width: 100%;
 }
 </style>
