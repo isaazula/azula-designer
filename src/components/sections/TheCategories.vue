@@ -2,11 +2,9 @@
 
 <template>
   <section class="categories">
-    <div>
-      <img src="/src/image_1.jpeg" alt="Category 1" />
-      <img src="/src/image_2.jpeg" alt="Category 2" />
-      <img src="/src/image_3.jpeg" alt="Category 3" />
-    </div>
+    <img src="/src/image_1.jpeg" alt="Category 1" />
+    <img src="/src/image_2.jpeg" alt="Category 2" />
+    <img src="/src/image_3.jpeg" alt="Category 3" />
   </section>
 </template>
 

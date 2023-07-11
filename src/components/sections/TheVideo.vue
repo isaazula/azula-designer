@@ -2,12 +2,14 @@
 
 <template>
   <section>
-    <video class="video" src="/src/video.mp4"></video>
+    <video class="video" muted autoplay loop>
+      <source src="@/assets/videos/video.mp4" type="video/mp4" />
+    </video>
   </section>
 </template>
 
 <style scoped>
 .video {
-  width: auto;
+  width: 100%;
 }
 </style>

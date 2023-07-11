@@ -1,13 +1,12 @@
 <script setup>
 import TheCategories from "../sections/TheCategories.vue";
-import TheFooter from "../sections/TheFooter.vue";
-import TheVideoVue from "../sections/TheVideo.vue";
+
+import TheVideo from "../sections/TheVideo.vue";
 </script>
 
 <template>
-  <TheVideoVue />
+  <TheVideo />
   <TheCategories />
-  <TheFooter />
 </template>
 
 <style scoped></style>
