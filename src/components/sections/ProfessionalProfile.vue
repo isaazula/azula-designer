@@ -14,4 +14,11 @@
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+p {
+  margin: 70px;
+  text-align: right;
+  font-family: "GFS Didot", serif;
+  font-size: 26px;
+}
+</style>
