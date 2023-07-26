@@ -5,13 +5,22 @@ import TheFooter from "./components/sections/TheFooter.vue";
 </script>
 
 <template>
-  <TheHeader />
+  <div id="layout">
+    <TheHeader />
 
-  <main>
-    <RouterView />
-  </main>
+    <main>
+      <RouterView />
+    </main>
 
-  <TheFooter />
+    <TheFooter />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr max-content;
+  min-height: 100vh;
+}
+</style>

@@ -1,12 +1,12 @@
 <script setup></script>
 
 <template>
-  <header class="header_home">
+  <header>
     <div>
       <h1>About me</h1>
     </div>
     <div>
-      <img class="logo_header" src="@/assets/images/azula.svg" alt="Logo" />
+      <img class="logo_header" src="images/azula.svg" alt="Logo" />
     </div>
     <h1>My projects</h1>
     <!-- <div>
@@ -20,7 +20,7 @@
 
 <style scoped>
 header {
-  height: 100px;
+  height: 130px;
   background-color: var(--primary-first);
   width: 100%;
   display: grid;

@@ -2,9 +2,11 @@
 
 <template>
   <section class="categories">
-    <img src="@/assets/images/image_1.jpeg" alt="Category 1" />
-    <img src="@/assets/images/image_2.jpeg" alt="Category 2" />
-    <img src="@/assets/images/image_3.jpeg" alt="Category 3" />
+     <video class="video-categories" muted autoplay loop>
+      <source src="@/assets/videos/mac.mp4" type="video/mp4" />
+    </video>
+    <img src="/images/image_2.jpeg" alt="Category 2" />
+    <img src="/images/image_3.jpeg" alt="Category 3" />
   </section>
 </template>
 
@@ -17,6 +19,10 @@
 }
 
 .categories > img {
+  width: 100%;
+}
+
+.video-categories{
   width: 100%;
 }
 </style>
