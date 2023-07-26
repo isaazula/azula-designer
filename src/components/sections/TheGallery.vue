@@ -18,5 +18,6 @@
 
 .gallery > img {
   width: 100%;
+  box-shadow: var(--shadow-3);
 }
 </style>

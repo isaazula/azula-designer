@@ -2,7 +2,7 @@
 
 <template>
   <section class="categories">
-     <video class="video-categories" muted autoplay loop>
+    <video class="video-categories" muted autoplay loop>
       <source src="@/assets/videos/mac.mp4" type="video/mp4" />
     </video>
     <img src="/images/image_2.jpeg" alt="Category 2" />
@@ -18,11 +18,14 @@
   margin: 70px;
 }
 
-.categories > img {
+.categories > img,
+video {
   width: 100%;
+  height: 100%;
+  box-shadow: var(--shadow-3);
 }
 
-.video-categories{
+.video-categories {
   width: 100%;
 }
 </style>

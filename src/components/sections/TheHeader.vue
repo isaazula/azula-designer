@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <header>
+  <header class="header_home">
     <div>
       <h1>About me</h1>
     </div>
@@ -19,6 +19,8 @@
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
 header {
   height: 130px;
   background-color: var(--primary-first);
@@ -28,12 +30,14 @@ header {
   justify-items: center;
   align-items: center;
   gap: 30px;
+  box-shadow: var(--shadow-1);
 }
 
 .header_home {
   position: absolute;
   z-index: 10;
   background-color: transparent !important;
+  box-shadow: none;
 }
 
 .logo_header {
@@ -44,7 +48,7 @@ header {
 h1 {
   color: var(--color-white);
   text-align: center;
-  font-family: "GFS Didot", serif;
+  font-family: "Italiana", serif;
   font-size: 26px;
 }
 </style>
