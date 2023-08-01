@@ -1,7 +1,15 @@
-<script setup></script>
+<script setup>
+import { useRoute } from "vue-router";
+import { computed } from "vue";
+const route = useRoute();
+
+const header_home = computed(() => {
+  return route.path == "/" ? "header_home" : "";
+});
+</script>
 
 <template>
-  <header class="header_home">
+  <header :class="header_home">
     <div>
       <h1>About me</h1>
     </div>

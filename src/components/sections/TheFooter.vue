@@ -3,10 +3,18 @@
 <template>
   <footer>
     <div class="redes footer__nav item__1">
-      <img src="/images/instagram.svg" alt="Instagram" />
-      <img src="/images/linkedin.svg" alt="LinkedIn" />
-      <img src="/images/correo.svg" alt="Correo" />
-      <img src="/images/behance.svg" alt="Behance" />
+      <a href="https://www.instagram.com/azula.designer/" target="_blank"
+        ><img src="/images/instagram.svg" alt="Instagram"
+      /></a>
+      <a href="https://www.linkedin.com/in/azula-designer/" target="_blank"
+        ><img src="/images/linkedin.svg" alt="LinkedIn"
+      /></a>
+      <a href="mailto:azula.designer@gmail.com" target="_blank"
+        ><img src="/images/correo.svg" alt="Correo"
+      /></a>
+      <a href="https://www.behance.net/azula_designer" target="_blank"
+        ><img src="/images/behance.svg" alt="Behance"
+      /></a>
     </div>
 
     <div class="footer__copy item__2">
@@ -34,7 +42,7 @@ footer {
   margin: 30px 0 0 70px;
 }
 
-.redes > img {
+.redes img {
   width: 40px;
 }
 

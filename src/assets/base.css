@@ -1,6 +1,6 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --color-white: #ece9ec;
+  --color-white: #eceaea;
   --color-black: #29282d;
 
   --primary-first: #7fa1ae;
@@ -20,6 +20,7 @@
   --shadow-4: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   
   --shadow-5: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
   }
 
 
@@ -39,6 +40,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eceaea;
 }
 
 img,
