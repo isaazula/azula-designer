@@ -2,11 +2,17 @@
 
 <template>
   <section class="categories">
-    <video class="video-categories" muted autoplay loop>
-      <source src="@/assets/videos/mac.mp4" type="video/mp4" />
+    <video class="video-categories" id="v2" key="v2" muted autoplay loop>
+      <source src="@/assets/videos/second.mp4" type="video/mp4" />
     </video>
-    <img src="/images/image_2.jpeg" alt="Category 2" />
-    <img src="/images/image_3.jpeg" alt="Category 3" />
+
+    <video class="video-categories" id="v3" key="v3" muted autoplay loop>
+      <source src="@/assets/videos/third.mp4" type="video/mp4" />
+    </video>
+
+    <video class="video-categories" id="v1" key="v1" muted autoplay loop>
+      <source src="@/assets/videos/first.mp4" type="video/mp4" />
+    </video>
   </section>
 </template>
 

@@ -2,9 +2,14 @@
 
 <template>
   <section class="gallery">
-    <img src="/images/image_1.jpeg" alt="Category 1" />
-    <img src="/images/image_2.jpeg" alt="Category 2" />
-    <img src="/images/image_3.jpeg" alt="Category 3" />
+    <a
+      href="https://www.behance.net/gallery/176540355/Movie-Poster"
+      target="_blank"
+    >
+      <img src="/images/movie.png" alt="Movie Poster"
+    /></a>
+    <img src="/images/caperucita.png" alt="Category 2" />
+    <img src="/images/2.jpg" alt="Category 3" />
   </section>
 </template>
 
@@ -16,7 +21,7 @@
   margin: 70px;
 }
 
-.gallery > img {
+.gallery img {
   width: 100%;
   box-shadow: var(--shadow-3);
 }

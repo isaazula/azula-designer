@@ -14,7 +14,7 @@ const header_home = computed(() => {
       <h1>About me</h1>
     </div>
     <div>
-      <img class="logo_header" src="images/azula.svg" alt="Logo" />
+      <img class="logo_header" src="images/logo.svg" alt="Logo" />
     </div>
     <h1>My projects</h1>
     <!-- <div>
@@ -31,6 +31,7 @@ const header_home = computed(() => {
 
 header {
   height: 130px;
+  color: var(--color-white);
   background-color: var(--primary-first);
   width: 100%;
   display: grid;
@@ -46,6 +47,8 @@ header {
   z-index: 10;
   background-color: transparent !important;
   box-shadow: none;
+  background-color: var(--primary-first);
+  color: var(--primary-first);
 }
 
 .logo_header {
@@ -54,7 +57,6 @@ header {
 }
 
 h1 {
-  color: var(--color-white);
   text-align: center;
   font-family: "Italiana", serif;
   font-size: 26px;
