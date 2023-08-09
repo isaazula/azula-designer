@@ -14,7 +14,7 @@
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 
 p {
   margin: 70px;
