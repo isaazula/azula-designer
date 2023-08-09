@@ -30,7 +30,7 @@ const header_home = computed(() => {
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 
 header {
-  height: 130px;
+  height: 120px;
   color: var(--color-white);
   background-color: var(--primary-first);
   width: 100%;
@@ -52,8 +52,8 @@ header {
 }
 
 .logo_header {
-  margin-top: 30px;
-  width: 300px;
+  margin-top: 5px;
+  width: 200px;
 }
 
 h1 {
