@@ -14,7 +14,7 @@ const header_home = computed(() => {
       <h1>About me</h1>
     </div>
     <div>
-      <img class="logo_header" src="images/logo.svg" alt="Logo" />
+      <img class="logo_header" src="/images/logo.svg" alt="Logo" />
     </div>
     <h1>My projects</h1>
     <!-- <div>

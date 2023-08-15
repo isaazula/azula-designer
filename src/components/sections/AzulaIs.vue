@@ -2,8 +2,7 @@
 
 <template>
   <section>
-    <p class="text--style-3">A&nbsp;</p>
-    <p class="text--style-2">zula is&nbsp;</p>
+    <p class="text--style-3">Azula<span class="text--style-2">is</span></p>
 
     <div class="animation--container text--style">
       <p class="fade--in" id="fi1">a Designer</p>
@@ -20,8 +19,8 @@
 }
 
 section {
-  height: 700px;
-  margin: 0px 0 150px 0;
+  height: 500px;
+  margin: 100px 0 0 0;
 }
 
 @keyframes moveFade {
@@ -80,27 +79,16 @@ section {
   position: absolute;
 }
 
-.text--style-1 {
-  font-size: 400px;
-  font-family: "Italiana", serif;
-  color: var(--primary-first);
-  opacity: 30%;
-  text-align: right;
-  margin-right: 100px;
-  padding: 0px;
-}
-
 .text--style-2 {
   font-size: 150px;
   font-family: "Italiana", serif;
   color: var(--primary-second);
   text-align: left;
-  margin-left: 195px;
   opacity: 80%;
 }
 
 .text--style-3 {
-  font-size: 400px;
+  font-size: 150px;
   font-family: "Italiana", serif;
   color: var(--primary-third);
   text-align: left;

@@ -1,4 +1,14 @@
-<script setup></script>
+<script setup>
+import { useRouter, useRoute } from "vue-router";
+import { onBeforeMount } from "vue";
+
+const router = useRouter();
+const route = useRoute();
+
+onBeforeMount(() => {
+  console.log(route.params.category);
+});
+</script>
 
 <template>
   <section class="gallery">

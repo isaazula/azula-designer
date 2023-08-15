@@ -10,7 +10,7 @@ const router = createRouter({
     },
 
     {
-      path: "/gallery",
+      path: "/gallery/:category",
       name: "gallery",
       component: () => import("@/components/views/GalleryView.vue"),
     },
