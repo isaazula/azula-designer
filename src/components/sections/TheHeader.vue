@@ -14,15 +14,15 @@ const header_home = computed(() => {
       <h1>About me</h1>
     </div>
     <div>
-      <img class="logo_header" src="/images/logo.svg" alt="Logo" />
+      <p>AZULA</p>
     </div>
     <h1>My projects</h1>
-    <!-- <div>
-        <a href="">Branding & Packaging</a>
-        <a href="">Illustrations & Prints</a>
-        <a href="">Photographs & Audiovisual Content</a>
-        <a href="">3D Modelling & Animations</a>
-      </div> -->
+    <nav id="nav__small">
+      <p class="text__nav">Branding & Packaging</p>
+      <p class="text__nav">Illustrations & Prints</p>
+      <p class="text__nav">Photographs & Audiovisual Content</p>
+      <p class="text__nav">3D Modelling & Animations</p>
+    </nav>
   </header>
 </template>
 
@@ -51,14 +51,42 @@ header {
   color: var(--primary-first);
 }
 
-.logo_header {
+p {
+  text-align: center;
+  font-size: 50px;
+  font-family: Didot;
+  letter-spacing: 7px;
   margin-top: 5px;
-  width: 200px;
 }
 
 h1 {
   text-align: center;
   font-family: "Italiana", serif;
   font-size: 26px;
+  color: var(--primary-third);
+}
+
+#nav__small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  padding-right: 50px;
+  z-index: 9 !important;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  transition: all 0.5s;
+  color: var(--primary-third);
+}
+
+.text__nav {
+  font-family: Didot;
+  color: var(--primary-first);
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-left: 1005px;
 }
 </style>
