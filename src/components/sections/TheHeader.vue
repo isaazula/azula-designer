@@ -16,13 +16,13 @@ const header_home = computed(() => {
     <div>
       <p>AZULA</p>
     </div>
-    <h1>My projects</h1>
-    <nav id="nav__small">
+    <h1 id="menu__button">My projects</h1>
+    <!-- <nav id="nav__small">
       <p class="text__nav">Branding & Packaging</p>
       <p class="text__nav">Illustrations & Prints</p>
       <p class="text__nav">Photographs & Audiovisual Content</p>
       <p class="text__nav">3D Modelling & Animations</p>
-    </nav>
+    </nav>-->
   </header>
 </template>
 
@@ -30,8 +30,8 @@ const header_home = computed(() => {
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 
 header {
-  height: 120px;
   color: var(--color-white);
+  height: 120px;
   background-color: var(--primary-first);
   width: 100%;
   display: grid;
@@ -72,7 +72,6 @@ h1 {
   justify-content: center;
   gap: 15px;
   width: 100%;
-  padding-right: 50px;
   z-index: 9 !important;
   position: absolute;
   top: 100px;
@@ -87,6 +86,6 @@ h1 {
   font-size: 20px;
   letter-spacing: 0px;
   text-align: center;
-  padding-left: 1005px;
+  margin-left: 980px;
 }
 </style>

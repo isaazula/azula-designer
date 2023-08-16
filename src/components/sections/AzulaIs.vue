@@ -5,9 +5,9 @@
     <p class="text--style-3">Azula<span class="text--style-2">is</span></p>
 
     <div class="animation--container text--style">
-      <p class="fade--in" id="fi1">a Designer</p>
+      <p class="fade--in" id="fi1">a Photographer</p>
       <p class="fade--in" id="fi2">an Artist</p>
-      <p class="fade--in" id="fi3">a Photographer</p>
+      <p class="fade--in" id="fi3">a Designer</p>
       <p class="fade--in" id="fi4">an Illustrator</p>
     </div>
   </section>
@@ -19,8 +19,8 @@
 }
 
 section {
-  height: 500px;
-  margin: 100px 0 0 0;
+  height: 400px;
+  margin: 70px 0 0 70px;
 }
 
 @keyframes moveFade {
@@ -80,27 +80,28 @@ section {
 }
 
 .text--style-2 {
-  font-size: 150px;
-  font-family: "Italiana", serif;
+  font-size: 130px;
+  font-family: Didot, serif;
   color: var(--primary-second);
   text-align: left;
   opacity: 80%;
+  margin-left: 40px;
 }
 
 .text--style-3 {
-  font-size: 150px;
-  font-family: "Italiana", serif;
+  font-size: 130px;
+  font-family: Didot;
+  font-weight: italic;
   color: var(--primary-third);
   text-align: left;
-  opacity: 80%;
-  height: 350px;
+  opacity: 70%;
 }
 
 .text--style {
-  font-size: 150px;
-  font-family: "Italiana", serif;
+  font-size: 130px;
+  font-family: Didot, italic;
   color: var(--primary-first);
-  text-align: center;
-  margin-left: 190px;
+  text-align: right;
+  margin-left: 350px;
 }
 </style>

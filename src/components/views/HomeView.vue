@@ -9,7 +9,6 @@ import TheVideo from "../sections/TheVideo.vue";
 <template>
   <TheVideo />
   <AzulaIs />
-  <ProfessionalProfile />
   <TheCategories />
 </template>
 

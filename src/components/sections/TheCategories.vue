@@ -64,7 +64,7 @@ const router = useRouter();
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 70px;
-  margin: 70px;
+  margin: 0 70px 70px 70px;
 }
 
 .categories > img,

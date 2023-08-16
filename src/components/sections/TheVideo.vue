@@ -10,7 +10,8 @@
 
 <style scoped>
 .video {
-  width: 102%;
-  opacity: 50%;
+  width: 100%;
+  opacity: 80%;
+  margin-top: 10px;
 }
 </style>
